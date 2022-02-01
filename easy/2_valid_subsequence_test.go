@@ -17,8 +17,8 @@ var _ = Describe("Valid Subsequence", func() {
 	var testDataList []testData = []testData{
 		{
 			array:          []int{1, 1, 1, 1, 1},
-			sequence:       []int{1, 1, 1},
-			expectedResult: true,
+			sequence:       []int{1, 1, 2},
+			expectedResult: false,
 		},
 		{
 			array:          []int{5, 1, 22, 25, 6, -1, 8, 10},
