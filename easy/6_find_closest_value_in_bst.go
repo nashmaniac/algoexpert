@@ -14,7 +14,7 @@ type BST struct {
 func (tree *BST) ReturnDiffWithNode(target int) (*BST, *int) {
 	if tree == nil {
 		return nil, nil
-	}
+	} 
 
 	leftNode, leftDiff := tree.Left.ReturnDiffWithNode(target)
 	rightNode, rightDiff := tree.Right.ReturnDiffWithNode(target)
