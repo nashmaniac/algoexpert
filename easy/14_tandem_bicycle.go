@@ -1,7 +1,6 @@
 package easy
 
 import (
-	"log"
 	"math"
 	"sort"
 )
