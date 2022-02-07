@@ -8,7 +8,7 @@ import (
 	// . "github.com/onsi/gomega"
 )
 
-var _ = FDescribe("Spiral Traverse", func() {
+var _ = Describe("Spiral Traverse", func() {
 	Context("when the data is valid", func() {
 		It("works", func() {
 

@@ -25,7 +25,7 @@ func (l *LongestPeakProblem) Variation1(array []int) int {
 
 		rightIndex := i + 2
 		for rightIndex < len(array) && array[rightIndex] < array[rightIndex-1] {
-			rightIndex += 1	
+			rightIndex += 1
 		}
 		currentLength := rightIndex - leftIndex - 1
 		if currentLength > longestPeakLength {
